@@ -4,7 +4,9 @@
 
 Preproc<-Cranborne_37c_isn
 Preprocessing_FERS(Knockrath_cycle_1_PRE[Knockrath_cycle_1_PRE$Cycle %in% c(2,3),])
+# test method 
 Preprocessing_FERS<-Preprocessing_FERS_new
+#function
 Preprocessing_FERS_new<- function(Preproc){
   library(magrittr)
   library(dplyr)
